@@ -131,7 +131,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-6 text-center text-xs text-white/50">
-          © 2026 {siteConfig.name}. Developed by Umaish.
+          © 2026 {siteConfig.name}. Developed by Umaish Mughal.
         </div>
       </div>
     </footer>
