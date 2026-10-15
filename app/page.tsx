@@ -15,7 +15,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1920&q=80"
-            alt="Apparel manufacturing and export"
+            alt="Attire Ace Apparels - Sportswear Manufacturing"
             fill
             priority
             className="object-cover"
@@ -26,16 +26,18 @@ export default function Home() {
         <div className="relative z-10 mx-auto w-full max-w-7xl px-5 py-24 sm:px-8 lg:px-12">
           <div className="max-w-3xl">
             <span className="mb-4 inline-block rounded-full border border-[#d4a017]/40 bg-[#d4a017]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-[#d4a017]">
-              Global Apparel Trade
+              Manufacturer & Exporter of Sportswear
             </span>
 
             <h1 className="font-serif text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-              Connecting Global Markets{" "}
-              <span className="text-[#d4a017]">Through Quality Apparel</span>
+              Premium Sportswear &{" "}
+              <span className="text-[#d4a017]">Custom Apparel Solutions</span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/80 sm:text-lg">
-              {siteConfig.description}
+              Attire Ace Apparels is a trusted manufacturer of sports wear, 
+              cotton wear, and custom apparel. With GOAT certification for 
+              high-quality cotton, we deliver unmatched quality at competitive prices.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -89,20 +91,19 @@ export default function Home() {
               Who We Are
             </span>
             <h2 className="font-serif text-3xl font-bold leading-tight text-[#0a1a38] sm:text-4xl lg:text-5xl">
-              A Trusted Partner in Global Apparel Trade
+              Trusted Manufacturer of Sportswear & Custom Apparel
             </h2>
             <p className="mt-5 text-base leading-relaxed text-gray-600">
-              AttireAce is a B2B apparel import and export company connecting
-              quality garment manufacturers with fashion retailers,
-              wholesalers, and private-label brands across the world. From
-              premium textiles and ready-made garments to knitwear, denim,
-              and leather apparel — we handle sourcing, quality control,
-              documentation, and logistics end-to-end.
+              Attire Ace Apparels has been a trusted name in premium sportswear 
+              manufacturing. We specialize in Soccer Ball Wear, Basketball Wear, 
+              Training Wear, Cotton Wear, Sport Apparel, Football Ball Wear, 
+              Rugby Wear, GAA Wear, Hoodies & Casual Wear, and Sports Bags.
             </p>
             <p className="mt-4 text-base leading-relaxed text-gray-600">
-              Whether you&apos;re a distributor, retailer, or private-label
-              brand, our team delivers consistent quality and on-time
-              delivery — shipment after shipment.
+              Whether you&apos;re outfitting a team, launching your brand, or 
+              scaling your retail business — we offer Private Label Customization, 
+              Retail & Custom Packaging, Fast Delivery (10–15 Days Production Time), 
+              Small MOQ Acceptance, and Unmatched Quality at Competitive Prices.
             </p>
 
             <Link
@@ -116,7 +117,7 @@ export default function Home() {
           <div className="relative h-[400px] overflow-hidden rounded-2xl shadow-2xl lg:h-[500px]">
             <Image
               src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80"
-              alt="Apparel warehouse and logistics"
+              alt="Attire Ace Apparels warehouse and logistics"
               fill
               className="object-cover"
             />
@@ -247,23 +248,23 @@ export default function Home() {
             {[
               {
                 icon: Globe,
-                title: "Global Reach",
-                desc: "Serving apparel buyers across multiple continents with reliable logistics.",
+                title: "GOAT Certified Cotton",
+                desc: "Certified high-quality cotton ensuring premium comfort and durability.",
               },
               {
                 icon: Package,
-                title: "Quality Assured",
-                desc: "Multi-stage QC before every garment shipment leaves our facility.",
+                title: "Small MOQ Accepted",
+                desc: "We support startups and small businesses with low minimum order quantities.",
               },
               {
                 icon: Award,
-                title: "Custom Programs",
-                desc: "Private-label, OEM, and tailored apparel sourcing solutions.",
+                title: "Private Label & Custom",
+                desc: "Complete customization with retail and custom packaging options.",
               },
               {
                 icon: Ship,
-                title: "On-Time Delivery",
-                desc: "Documented export processes and dependable shipping.",
+                title: "Fast Delivery",
+                desc: "10–15 days production time with reliable worldwide shipping.",
               },
             ].map((item) => (
               <div
@@ -286,7 +287,7 @@ export default function Home() {
         <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-between gap-6 px-5 text-center sm:px-8 lg:flex-row lg:px-12 lg:text-left">
           <div>
             <h2 className="font-serif text-2xl font-bold text-[#0a1a38] sm:text-3xl">
-              Ready to Place a Wholesale Apparel Order?
+              Ready to Start Your Custom Apparel Order?
             </h2>
             <p className="mt-2 text-[#0a1a38]/80">
               Get in touch for a quote tailored to your requirements.
